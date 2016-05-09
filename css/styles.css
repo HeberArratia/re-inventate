@@ -2581,8 +2581,15 @@ h1 {
   border-bottom: 6px solid #077470 !important; }
 
 h1 {
-  display: none;
-  color: #fff; }
+  letter-spacing: -9999px;
+  overflow: hidden;
+  font-size: 2em; }
+  h1 span {
+    position: absolute;
+    top: -2000px; }
+  h1 img {
+    position: absolute;
+    top: 0; }
 
 header {
   border-top: 10px solid #00a29c;
@@ -2594,8 +2601,6 @@ header {
   header #sup {
     margin: 0 auto;
     height: 130px; }
-    header #sup #logo img {
-      width: 170px; }
     header #sup nav ul {
       list-style: none;
       float: right !important; }
@@ -2665,6 +2670,8 @@ header {
         -moz-border-radius: 5px;
         padding: 7.5px 0;
         text-align: center; }
+    #slider .slide-item .btn-movil {
+      display: none; }
 
 @media (max-width: 1024px) {
   li {
@@ -2712,30 +2719,64 @@ header {
     border-top: none;
     top: 54px;
     position: relative; }
-  header #logo img {
+  header h1 img {
+    position: relative;
+    margin-top: -36px;
     display: block;
     clear: both;
     margin-right: auto !important;
     margin-left: auto !important; }
-  #slider {
-    height: 220px; }
   #divisor {
     height: 50px; }
+  #slider {
+    overflow: visible !important; }
+  #slider .slide-item {
+    position: relative; }
+  #slider .slide-item .btn-movil {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 162, 156, 0.7);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase; }
+  #slider #sl-1, #slider #sl-2, #slider #sl-3 {
+    background-size: cover;
+    height: 300px; }
+  #slider #sl-1 {
+    background: url("../img/sl1.png");
+    background-position: center;
+    opacity: .9;
+    background-size: cover; }
+  #slider #sl-2 {
+    background: url("../img/sl2.png");
+    background-position: center;
+    background-size: cover; }
+  #slider #sl-3 {
+    background: url("../img/sl3.png");
+    background-position: 75%;
+    background-size: cover; }
   #slider .slide-item img {
-    clip: rect(0px, 60px, 200px, 0px) !important;
-    min-width: 500px !important; }
+    opacity: 0; }
   #slider .slide-item .slide-contenido h2 {
-    padding-top: 13px; }
+    font-size: 2.8em; }
+  #slider .slide-item .slide-contenido .h-small {
+    font-size: 2em; }
+  #slider .slide-item .slide-contenido p {
+    display: none; }
   #slider .slide-item .slide-contenido a {
-    font-size: 15px !important;
-    width: 200px;
-    margin-top: 10px; }
+    display: none; }
   #areas {
     margin-top: 7px !important; } }
 
 @media screen and (max-width: 680px) {
-  #slider {
-    height: 180px; }
   #areas a {
     width: 250px !important;
     font-size: 18px !important; } }

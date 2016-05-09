@@ -56,38 +56,105 @@
   .slicknav_menu {
     display: block;
   }
+
   header{
     border-top: none;
     top: 54px;
     position: relative;
   }
-  header #logo img{
+  header h1 img{
+    position: relative;
+    margin-top: -36px;
     display: block;
     clear: both;
     margin-right: auto !important;
     margin-left: auto !important;
+
   }
-  #slider{
-   //top: 50px;
-   height: 220px;
-  }
+
   #divisor{
     height: 50px;
   }
+
+  #slider{
+   //top: 50px;
+   //height: 220px;
+   overflow: visible !important;
+  }
+
+  #slider .slide-item{
+    position: relative;
+  }
+
+  #slider .slide-item .btn-movil{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: rgba($verde-uno,.7);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: $pt;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  #slider #sl-1, #slider #sl-2, #slider #sl-3{
+    background-size: cover;
+    height: 300px;
+  }
+
+  #slider #sl-1{
+    background: url('../img/sl1.png');
+    background-position: center;
+    opacity: .9;
+    background-size: cover;
+  }
+
+  #slider #sl-2{
+    background: url('../img/sl2.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #slider #sl-3{
+    background: url('../img/sl3.png');
+    background-position: 75%;
+    background-size: cover;
+  }
+
   #slider .slide-item img{
-    clip: rect(0px,60px,200px,0px) !important;
-    min-width: 500px !important;
+    //display: none;
+    opacity: 0;
+    //min-width: 500px !important;
+    //position: absolute;
+    //clip: rect(200px,200px,200px,200px) !important;
+    //clip: rect(0px,60px,200px,0px);
   }
 
   #slider .slide-item .slide-contenido h2{
-    padding-top: 13px;
+    font-size: 2.8em;
+  }
+
+  #slider .slide-item .slide-contenido .h-small{
+    font-size: 2em;
+  }
+  #slider .slide-item .slide-contenido p{
+    display: none;
   }
 
   #slider .slide-item .slide-contenido a{
-    font-size: 15px !important;
-    width: 200px;
-    margin-top: 10px;
+    //font-size: 15px !important;
+    //width: 200px;
+    //margin-top: 10px;
+    display: none;
   }
+
   #areas{
       margin-top: 7px !important;
   }
@@ -97,7 +164,7 @@
 @media screen and (max-width: 680px) {
   #slider{
    //top: 50px;
-   height: 180px;
+   //height: 180px;
   }
 
   #areas a{
