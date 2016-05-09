@@ -3108,6 +3108,8 @@ footer {
     padding-bottom: 50px;
     text-align: center;
     color: white; }
+  footer #analytics {
+    display: none; }
 
 /* start preloader */
 .preloader {
