@@ -1,0 +1,55 @@
+#divisor{
+	height: 140px;
+}
+#slider{
+	
+	//top: 140px;
+	max-height: 400px;
+	overflow: hidden;
+	.slide-item{
+		position: relative;
+		img{
+			
+		}	
+		.slide-contenido{
+			position: absolute;
+			width: 100%;
+			top: 0;
+			h2, p{
+				font-family: $pt;
+				color: $cafe;
+			}
+			h2{
+				padding-top: 38px;
+				font-size: 3.3em;
+				font-weight: 400;
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+			.h-small{
+				font-size: 2.3em;
+			}
+			p{
+				margin-top: 28px;
+				line-height: 30px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				text-align: justify;
+			}
+			a{
+				width: 248px;
+		    	display: block;
+		    	background: #00a29c;
+		    	font-size: 23px;
+		    	color: #ffffff;
+		    	font-weight: 600;
+			    border-bottom: 6px solid #098c87;
+			    border-radius: 5px;
+			    -webkit-border-radius: 5px;
+			    -moz-border-radius: 5px;
+			    padding: 7.5px 0;
+			    text-align: center;
+			}
+		}
+	}
+}

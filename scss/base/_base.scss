@@ -1,0 +1,15 @@
+a {
+  text-decoration : none;
+}
+
+p {
+  &:last-child,
+  &:only-child {
+      margin: 0;
+  }
+}
+
+
+h1 {
+  line-height: 1.2;
+}
