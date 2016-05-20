@@ -12,7 +12,7 @@
   }
   #slider .slide-item .slide-contenido p{
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
   }
   #slider .slide-item .slide-contenido .h-small{
@@ -25,19 +25,23 @@
     font-size: 11px !important;
   }
   #slider .slide-item .slide-contenido h2{
-    font-size: 1.8em;
+    font-size: 2em;
   }
   #slider .slide-item .slide-contenido p{
-    font-size: 15px;
-    line-height: 18px;
+    //font-size: 15px;
+    line-height: 20px;
     margin-bottom: 10px;
   }
   #slider .slide-item .slide-contenido a{
     font-size: 18px !important;
   }
   #slider .slide-item .slide-contenido .h-small{
-    font-size: 1.1em;
+    font-size: 1.7em;
    }
+    #cap-y-ta .ed-item{
+    padding: 0px 0px 0px 0px !important;
+  }
+
 }
 
 .slicknav_menu {
@@ -158,6 +162,10 @@
   #areas{
       margin-top: 7px !important;
   }
+  .banner h2{
+    text-align: center !important;
+  }
+
   
 }
 

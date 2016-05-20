@@ -1,0 +1,54 @@
+.contenido-web{
+	margin-top: 40px;
+	h3 {
+		border-bottom: 1px solid #e0d8d4;
+	    padding-top: 28px;
+	    padding-bottom: 14px;
+	    font-family: $pt;
+	    color: $cafe;
+	    width: 100%;
+	    font-size: 1.6em;
+	}
+	.bottom-h{
+		width: 150px;
+    	display: block;
+    	border-top: 5px solid #00a29c;
+    	position: relative;
+    	top: -3px;
+    	margin-bottom: 15px;
+	}
+	p{
+		width: 100%;
+		color: #5e5752;
+		font-family: $pt;
+		font-size: 1.1em;
+		padding-bottom: 3px;
+	}
+	strong{
+		color: $verde-uno;
+		font-weight: 700;
+	}
+	.connotado{
+		font-size: 1.2em;
+		line-height: 25px;
+	}
+
+	h4{
+		margin-top: 10px;
+		margin-bottom: 3px;
+		color: $cafe;
+		font-family: $pt;
+		font-size: 1.3em;
+	}
+	h5{
+		color: $verde-uno;
+		font-family: $pt;
+		font-size: 1em;
+		padding-bottom: 10px;
+	}
+
+	img{
+		margin-bottom: 20px;
+		width: 200px;
+	}
+}

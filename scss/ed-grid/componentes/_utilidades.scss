@@ -24,11 +24,18 @@
     clear: both;
 }
 
-
+.cent-margin{
+  margin: 0 auto;
+}
 
 // Las clases de alineaciones de texto siguientes
 // serán eliminadas en la v2. Se recomienda usar
 // las clases basadas en flexbox
+
+.justify{
+  text-align: justify;
+}
+
   .centrar-texto,
   .center-text,
   .text-center {
